@@ -1,0 +1,14 @@
+node_modules/
+*.log
+*.local.json
+.chrome-profile/
+scripts/tts/work/
+# Резервные копии: в них голос ребёнка и фото — только на этом компьютере.
+yazychok-backup-*.json
+# Старые версии (история теперь в git) и черновые файлы.
+docs/archive/
+Claude outputs/
+# Картинка героя: приложение хранит её в браузере, а сам персонаж — чужой (авторские права).
+woozle.webp
+audio-lines.json
+shots/

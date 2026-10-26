@@ -1,0 +1,8 @@
+# Все текстовые файлы — с переводом строки LF (одинаково в облаке и на Windows).
+* text=auto eol=lf
+*.mp3 binary
+*.wav binary
+*.webp binary
+*.png binary
+*.jpg binary
+*.pt binary

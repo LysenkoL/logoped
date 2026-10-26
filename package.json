@@ -1,0 +1,17 @@
+{
+  "name": "yazychok-alexandra",
+  "version": "3.0.0",
+  "private": true,
+  "description": "Локальные ежедневные логопедические мини-игры: гимнастика, микрофонные игры, стишки, питомцы и пазл-подарок",
+  "scripts": {
+    "test": "node --test tests/*.test.cjs",
+    "smoke": "node scripts/smoke-test.cjs",
+    "autoplay": "node scripts/diagnostics/autoplay.cjs",
+    "audio:lines": "node scripts/audio-lines.cjs > audio-lines.json",
+    "tts:unpack": "python3 scripts/tts/unpack.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LysenkoL/logoped.git"
+  }
+}
